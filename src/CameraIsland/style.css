@@ -1,0 +1,22 @@
+.camera {
+    width: 85px;
+    height: 27px;
+    background-color: black;
+    border-radius: 60px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.camera:hover {
+    width: 110px;
+    transition: 0,3 ease-in-out;
+}
+.lens {
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+}
