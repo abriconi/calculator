@@ -1,0 +1,55 @@
+.screen {
+    width: 100%;
+    height: 100vh;
+    background-color: #e7b0a8;
+    display: flex;
+    align-items: center;
+}
+.phoneWrapper {
+    width: min(300px);
+    height: 600px;
+    border: solid 4px #666;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 35px 24px 46px -14px rgba(0,0,0,0.72);
+    -moz-box-shadow: 35px 24px 46px -14px rgba(0,0,0,0.72);
+    box-shadow: 35px 24px 46px -14px rgba(0,0,0,0.72);
+}
+.phoneFrame {
+    width: 95%;
+    height: 98%;
+    border: 8px solid black;
+    border-radius: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.buttonsLeftPanel {
+    position: absolute;
+    top: 96px;
+    left: -14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.button {
+    background: radial-gradient(#ccc, #666, rgba(0, 0, 0, 0.319));
+    border-radius: 80px;
+    width: 4px;
+}
+.volume {
+    height: 50px;
+}
+.mute {
+    height: 25px;
+}
+.siri {
+    position: absolute;
+    top: 145px;
+    left: 296px;
+    height: 100px;
+}
